@@ -1,0 +1,63 @@
+.res-con{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    height: auto;
+    padding-bottom: 10px;
+}
+.res-con h1{
+    margin: 20px;
+}
+.res-con h2{
+    margin: 30px;
+}
+.itinerary-form{
+    background-color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.name-container{
+    background-color: white;
+    display: flex;
+    width: 380px;
+    border: 1px solid grey;
+    margin: 20px;
+}
+.name-con{
+    width: 380px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+.location-icon{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.date-con{
+    margin: 23px;
+}
+.date-con input{
+    margin-left: 15px;
+    width: 200px;
+    height: 20px;
+}
+.create-btn{
+    width: 150px;
+    margin: 20px;
+}
+.search-destinations-con{
+    margin: 23px;
+}
+.saved-con{
+    list-style: none;
+}
+.item-con{
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 50px;
+}

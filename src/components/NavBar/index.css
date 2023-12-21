@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: steelblue;
+    color: white;
+}
+.nav-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-logo-con{
+    font-weight: 600;
+    padding-left: 30px;
+}
+.nav-items-con{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.nav-items-con p{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.seperator{
+    width: 100%;
+    opacity: 0.2;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 18px;
+}

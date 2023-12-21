@@ -1,0 +1,28 @@
+.res-con{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    height: auto;
+    padding-bottom: 10px;
+}
+.res-con ul{
+    list-style: none;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.existing-con{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+.existing-con h3{
+    letter-spacing: 2px;
+}
+.existing-con ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

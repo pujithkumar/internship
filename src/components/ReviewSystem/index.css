@@ -1,0 +1,46 @@
+.res-con{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    height: auto;
+    padding-bottom: 10px;
+}
+.res-con h1{
+    margin-left: 20px;
+}
+.user-icon{
+    height: 30px;
+    width: 30px;
+    margin: 18px;
+}
+.review-con{
+    list-style: none;
+}
+.review-card{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+.review-field{
+    display: flex;
+}
+.review-form-con{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+.review-form-con input{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+.review-form-con textarea{
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+}
+.review-form-con button{
+    width: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,77 @@
+.res-con{
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    height: auto;
+    padding-bottom: 10px;
+}
+.input-con{
+    display: flex;
+    flex-direction: row;
+    width: 536px;
+    background-color: white;
+    border: 1px solid black;
+    border-style: none;
+    align-self: center;
+}
+.input-con div{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.input-box{
+    width: 500px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+.destinations-list-con{
+    list-style: none;
+}
+.destinations-list-con div{
+    display: flex;
+    flex-direction: column;
+}
+.destination-item{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 54px;
+    padding-bottom: 24px;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.destination-item h3{
+    letter-spacing: 3px;
+}
+.destination-item div{
+    margin-left: 20px;
+}
+.image{
+    height: 100px;
+}
+.user-icon{
+    height: 30px;
+    width: 30px;
+    background: transparent;
+}
+.reviews-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.reviews-con div{
+    display: flex;
+    flex-direction: row;
+}
